@@ -29,7 +29,7 @@ Implement a Python module that:
 
 Telemetry events arrive as Python dicts, example:
 
-```json
+```python
 {
     "device_id": "AC-445",
     "timestamp": 1732137200,  # unix ts
@@ -46,7 +46,7 @@ Build a class TelemetryProcessor with:
 
 - `get_summary(device_id: str) → dict`: Return a summary with:
 
-```json
+```python
 {
     "device_id": "...",
     "recent_avg_temperature_f": float,
