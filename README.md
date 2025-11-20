@@ -23,7 +23,7 @@ You need to implement a small ingestion + summarization module, plus a simple AP
 
 ## Part 1: Telemetry Processing Module
 
-Implement a Python module that:
+Inside `telemetry_processor.py`, implement the telemetry processing logic.
 
 ### Input format
 
@@ -75,7 +75,7 @@ Build a class TelemetryProcessor with:
 
 ## Part 2: Micro API Layer
 
-Implement a minimal FastAPI service exposing:
+Inside `api.py`, implement a minimal FastAPI service exposing:
 
 ### GET `/devices/{device_id}/summary`
 
